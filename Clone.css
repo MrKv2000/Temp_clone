@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#super {
+    background-color: black;
+}
+
+#subNext {
+    margin: 0px auto;
+    width: 70%;
+    height: 650px;
+    background-color: whitesmoke;
+}
+
+#subNext hr {
+    height: 1px;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    right: -8px;
+}
+
+
+#navbar {
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: baseline;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 16px;
+    font-size:15px;
+    color: #6a6262;
+}
+
+#navbar ul li h3 {
+    font-size: 23px;
+    color: black;
+}
+
+
+div span img {
+    width: 21px;
+    height: 23px;
+    background: transparent;
+    margin: 6px;
+}
+
+
+#content-section {
+
+    height: 582px;
+    display: flex;
+}
+
+#for-img {
+    width: 45%;
+
+}
+
+#for-img [src="/shos img/mainshoe.jpg"] {
+    width: 59%;
+    height: 357px;
+    margin: 69px 119px;
+    border-radius: 7px;
+}
+
+section div ul {
+    display: flex;
+    margin: -53px 187px;
+
+    width: 27%;
+    height: 78px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+section div ul li {
+    list-style: none;
+}
+
+section div ul li img {
+    width: 53px;
+    height: 48px;
+    margin: 7px;
+    border-radius: 9px;
+
+}
+
+.logo-btn {
+    width: 18px;
+    height: 23px;
+    background: transparent;
+    position: relative;
+    top: 9px;
+    padding-right: 7px;
+
+}
+
+#content-about {
+    margin: 107px 13px;
+}
+
+div h5 {
+    color: orange;
+    margin-bottom: 12px;
+
+}
+
+div h1 {
+    font-size: 42px;
+    margin-bottom: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    padding-right: 80px;
+
+}
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+#content-about span[id="discount-price"] {
+    font-size: 15px;
+    color: orange;
+    background-color: rgb(216, 95, 160)
+}
+
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    color: #837c7c;
+}
+
+#content-about div {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 109px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    background-color: #e7e4e4;
+    border-radius: 5px;
+}
+
+
+#content-about span[id="add-to-cart"] {
+    margin-left: 14px;
+    position: relative;
+    top: -3px;
+    font-size: 18px;
+    padding-left: 52px;
+    padding-right: 57px;
+    width: 138px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 11px;
+    background-color: orange;
+}
+
+
+
+@media only screen and (max-width:1170px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 16px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 39px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 11px;
+        position: relative;
+        top: -3px;
+        font-size: 17px;
+        padding-left: 44px;
+        padding-right: 53px;
+        width: 138px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 17px;
+        font-weight: bolder;
+        width: 108px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 3px;
+        background-color: #e7e4e4;
+        border-radius: 5px;
+    }
+
+    section div ul {
+        display: flex;
+        margin: -53px 204px;
+        width: 13%;
+        height: 78px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 49px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 59%;
+        height: 343px;
+        margin: 74px 119px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-right: 79px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 13px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 15px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+}
+@media only screen and (max-width:1170px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 16px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 39px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 11px;
+        position: relative;
+        top: -3px;
+        font-size: 17px;
+        padding-left: 44px;
+        padding-right: 53px;
+        width: 138px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 17px;
+        font-weight: bolder;
+        width: 108px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 3px;
+        background-color: #e7e4e4;
+        border-radius: 5px;
+    }
+
+    section div ul {
+        display: flex;
+        margin: -53px 204px;
+        width: 13%;
+        height: 78px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 49px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 59%;
+        height: 343px;
+        margin: 74px 119px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-right: 79px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 13px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 15px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+
+
+
+}
+@media only screen and (max-width:1163px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 14px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+
+    #img-cont{
+        margin-right: 11px;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 35px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 11px;
+        position: relative;
+        top: -3px;
+        font-size: 17px;
+        padding-left: 26px;
+        padding-right: 39px;
+        width: 130px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 16px;
+        font-weight: bolder;
+        width: 102px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+        padding-left: 2px;
+        background-color: #e7e4e4;
+        border-radius: 5px; 
+    }
+
+    section div ul {
+        display: flex;
+        margin: -53px 196px;
+        width: 13%;
+        height: 71px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 44px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 59%;
+        height: 343px;
+        margin: 74px 119px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-right: 79px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 13px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 15px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+}
+@media only screen and (max-width:1163px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 14px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+
+    #img-cont{
+        margin-right: 11px;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 35px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 11px;
+        position: relative;
+        top: -3px;
+        font-size: 17px;
+        padding-left: 26px;
+        padding-right: 39px;
+        width: 130px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 16px;
+        font-weight: bolder;
+        width: 102px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+        padding-left: 2px;
+        background-color: #e7e4e4;
+        border-radius: 5px; 
+    }
+
+    section div ul {
+        display: flex;
+        margin: -53px 196px;
+        width: 13%;
+        height: 71px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 44px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 59%;
+        height: 343px;
+        margin: 74px 119px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-right: 79px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 13px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 15px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+}
+@media only screen and (max-width:1163px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 14px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+
+    #img-cont{
+        margin-right: 11px;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 35px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 11px;
+        position: relative;
+        top: -3px;
+        font-size: 17px;
+        padding-left: 26px;
+        padding-right: 39px;
+        width: 130px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 16px;
+        font-weight: bolder;
+        width: 102px;
+        padding-top: 9px;
+        padding-bottom: 8px;
+        padding-left: 2px;
+        background-color: #e7e4e4;
+        border-radius: 5px; 
+    }
+
+    section div ul {
+        display: flex;
+        margin: -53px 196px;
+        width: 13%;
+        height: 71px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 44px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 59%;
+        height: 343px;
+        margin: 74px 119px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-right: 79px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 13px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 15px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+}
+@media only screen and (max-width:980px) {
+
+    #navbar ul li {
+        list-style: none;
+        padding: 14px;
+        font-size: 14px;
+        color: #6a6262;
+    }
+
+    #img-cont{
+        margin-right: 11px;
+    }
+    #subNext hr {
+        height: 1px;
+        width: 89%;
+        margin: 0 auto;
+        position: relative;
+        right: -1px;
+    } 
+
+    #content-about {
+        margin: 99px 34px;
+    } 
+    
+    div h1 {
+        font-size: 30px;
+        padding-right: 23px;
+        margin-bottom: 35px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .logo-btn {
+        width: 15px;
+        height: 23px;
+        background: transparent;
+        position: relative;
+        top: 11px;
+        padding-right: 4px;
+    }
+
+    #content-about span[id="add-to-cart"] {
+        margin-left: 5px;
+        position: relative;
+        top: -3px;
+        font-size: 15px;
+        padding-left: 16px;
+        padding-right: 27px;
+        width: 129px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 11px;
+        background-color: orange;
+    }
+
+    content-about div {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+        font-size: 15px;
+        font-weight: bolder;
+        width: 96px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 3px;
+        background-color: #e7e4e4;
+        border-radius: 5px;
+    }
+
+    section div ul {
+        display: flex;
+        margin: -58px 169px;
+        width: 13%;
+        height: 71px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section div ul li img {
+        width: 44px;
+        height: 48px;
+        margin: 6px;
+        border-radius: 9px;
+    } 
+    
+    #for-img [src="/shos img/mainshoe.jpg"] {
+        width: 60%;
+        height: 343px;
+        margin: 64px 98px;
+        border-radius: 7px;
+    }
+
+div h5 {
+    color: orange;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+#content-about p[id="about-para"] {
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-right: 34px;
+}
+
+
+
+#content-about span[id="Selling-price"] {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+
+#content-about span[id="discount-price"] {
+    font-size: 11px;
+    color: orange;
+    background-color: rgb(216, 95, 160);
+}
+div p strike {
+    margin-bottom: 22px;
+    display: inline-block;
+    font-size: 13px;
+    color: #837c7c;
+}
+
+div span img {
+    width: 19px;
+    height: 24px;
+    background: transparent;
+    margin: 6px;
+}
+
+    
+}
